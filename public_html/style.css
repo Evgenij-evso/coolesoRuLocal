@@ -163,3 +163,25 @@
   align-items: center;
   justify-content: center;
 }
+@media(max-width:578px){
+  .container_card{
+    width: 390px;
+  }
+  .reviews_container{
+    width: 50%;
+
+    margin: 0;
+  }
+
+  .like_and_dislike{
+    display: none;
+  }
+}
+@media(max-width:436px){
+  .container_card{
+    width: 290px;
+  }
+  .reviews_one{
+    display: none;
+  }
+}
