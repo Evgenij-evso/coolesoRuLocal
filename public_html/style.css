@@ -181,7 +181,40 @@
   .container_card{
     width: 290px;
   }
+  .reviews_container{
+    width: 80%;
+  }
   .reviews_one{
     display: none;
+  }
+  .icon_name_container{
+    justify-content: start;
+  }
+  .Vertical_container{
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .card_footer{
+    height: 55%;
+  }
+  .reviews_text{
+    font-size: 0.9em;
+  }
+  .name_p{
+    font-size: 1em;
+  }
+  .card_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container_star{
+    width: 60%;
+    height: 50%;
+    padding: 0;
+  }
+  .nuber_star{
+    font-size: 1.4em;
+    font-weight: 600;
   }
 }
